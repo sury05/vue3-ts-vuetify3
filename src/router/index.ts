@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "@/pages/HomeView.vue";
-import DashboardView from "@/pages/DashboardView.vue";
+import WhitelistView from "@/pages/WhitelistView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -9,9 +9,9 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
-    path: "/dashboard",
-    name: "dashboard",
-    component: DashboardView,
+    path: "/allowUrl",
+    name: "whitelist",
+    component: WhitelistView,
   },
   {
     path: "/about",

@@ -2,7 +2,7 @@ const NAVIGATION_MENU = [
   {
     name: "Dashboard",
     icon: "mdi-dots-grid",
-    path: "/dashboard",
+    path: "/allowUrl",
   },
   {
     name: "Users",
